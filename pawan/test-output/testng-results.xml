@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-11T09:46:57 EST" name="Default suite" finished-at="2022-11-11T09:46:57 EST" duration-ms="150">
+    <groups>
+      <group name="fast">
+        <method signature="firsttc.aFastTest()[pri:0, instance:sample.firsttc@696da30b]" name="aFastTest" class="sample.firsttc"/>
+        <method signature="secondtc.aFastTest()[pri:0, instance:sample.secondtc@44821a96]" name="aFastTest" class="sample.secondtc"/>
+      </group> <!-- fast -->
+      <group name="slow">
+        <method signature="firsttc.aSlowTest()[pri:0, instance:sample.firsttc@696da30b]" name="aSlowTest" class="sample.firsttc"/>
+        <method signature="secondtc.aSlowTest()[pri:0, instance:sample.secondtc@44821a96]" name="aSlowTest" class="sample.secondtc"/>
+      </group> <!-- slow -->
+    </groups>
+    <test started-at="2022-11-11T09:46:57 EST" name="Default test" finished-at="2022-11-11T09:46:57 EST" duration-ms="150">
+      <class name="sample.firsttc">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sample.firsttc@696da30b]" started-at="2022-11-11T09:46:57 EST" name="setUp" finished-at="2022-11-11T09:46:57 EST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="aFastTest()[pri:0, instance:sample.firsttc@696da30b]" started-at="2022-11-11T09:46:57 EST" name="aFastTest" finished-at="2022-11-11T09:46:57 EST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aFastTest -->
+        <test-method signature="aSlowTest()[pri:0, instance:sample.firsttc@696da30b]" started-at="2022-11-11T09:46:57 EST" name="aSlowTest" finished-at="2022-11-11T09:46:57 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSlowTest -->
+      </class> <!-- sample.firsttc -->
+      <class name="sample.secondtc">
+        <test-method signature="aFastTest()[pri:0, instance:sample.secondtc@44821a96]" started-at="2022-11-11T09:46:57 EST" name="aFastTest" finished-at="2022-11-11T09:46:57 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aFastTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sample.secondtc@44821a96]" started-at="2022-11-11T09:46:57 EST" name="setUp" finished-at="2022-11-11T09:46:57 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="aSlowTest()[pri:0, instance:sample.secondtc@44821a96]" started-at="2022-11-11T09:46:57 EST" name="aSlowTest" finished-at="2022-11-11T09:46:57 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSlowTest -->
+      </class> <!-- sample.secondtc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
